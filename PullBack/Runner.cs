@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Laborator2
+namespace PullBack
 {
     public class Runner
     {
@@ -16,7 +13,7 @@ namespace Laborator2
             var f = new F();
             var g = new G();
             Func<String, String, Boolean> comp = (s, s1) => s == s1;
-            var results = new PullBack().getPullback(f, domX, g, domY, codom, comp);
+            var results = new global::PullBack.PullBack().getPullback(f, domX, g, domY, codom, comp);
             foreach (var triple in results)
             {
                 Console.WriteLine(triple.ToString());
@@ -99,7 +96,7 @@ namespace Laborator2
             var f = new F();
             var g = new G();
             Func<String, String, Boolean> comp = (s, s1) => s == s1;
-            var results = new PullBack().getPullback(f, productHash, g, articleHash, codom, comp);
+            var results = new global::PullBack.PullBack().getPullback(f, productHash, g, articleHash, codom, comp);
             foreach (var triple in results)
             {
                 Console.WriteLine(triple.ToString());

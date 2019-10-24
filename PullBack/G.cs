@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Laborator2
+namespace PullBack
 {
-    class G: BetterName<String,String>
+    public class G: BetterName<String,String>
     {
         public string Compute(string entry)
         {

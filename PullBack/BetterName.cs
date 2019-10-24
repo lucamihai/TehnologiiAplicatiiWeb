@@ -1,4 +1,4 @@
-﻿namespace Laborator2
+﻿namespace PullBack
 {
     public interface BetterName<Td, Tc>
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Laborator2
+namespace PullBack
 {
     public class PullBack : PullBackAbstract<Product, String, Article>
     {

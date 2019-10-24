@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Laborator2
+namespace PullBack
 {
     public abstract class PullBackAbstract<T1, T2, T3>
     {
@@ -10,7 +10,7 @@ namespace Laborator2
             HashSet<T1> domfi,
             BetterName<T3, T2> gi,
             HashSet<T3> domgi,
-            HashSet<T2> codomi, 
+            HashSet<T2> codomi,
             Func<T2, T2, bool> comp);
     }
 }

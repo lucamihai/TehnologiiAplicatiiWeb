@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Laborator1
+namespace Mealy
 {
     public class StateMachine : IFunction
     {

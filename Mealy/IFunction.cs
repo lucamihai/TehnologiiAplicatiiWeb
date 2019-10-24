@@ -1,4 +1,4 @@
-﻿namespace Laborator1
+﻿namespace Mealy
 {
     public interface IFunction
     {
