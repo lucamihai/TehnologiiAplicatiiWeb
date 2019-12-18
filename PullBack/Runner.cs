@@ -13,11 +13,11 @@ namespace PullBack
             var f = new F();
             var g = new G();
             Func<String, String, Boolean> comp = (s, s1) => s == s1;
-            var results = new global::PullBack.PullBack().getPullback(f, domX, g, domY, codom, comp);
-            foreach (var triple in results)
-            {
-                Console.WriteLine(triple.ToString());
-            }
+            //var results = new global::PullBack.PullBack().getPullback(f, domX, g, domY, codom, comp);
+            //foreach (var triple in results)
+            //{
+            //    Console.WriteLine(triple.ToString());
+            //}
         }
 
         public static void Ex2()
@@ -96,11 +96,11 @@ namespace PullBack
             var f = new F();
             var g = new G();
             Func<String, String, Boolean> comp = (s, s1) => s == s1;
-            var results = new global::PullBack.PullBack().getPullback(f, productHash, g, articleHash, codom, comp);
-            foreach (var triple in results)
-            {
-                Console.WriteLine(triple.ToString());
-            }
+            //var results = new global::PullBack.PullBack().getPullback(f, productHash, g, articleHash, codom, comp);
+            //foreach (var triple in results)
+            //{
+            //    Console.WriteLine(triple.ToString());
+            //}
         }
     }
 }
