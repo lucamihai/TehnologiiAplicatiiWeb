@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PullBack", "PullBack\PullBa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainApplication", "MainApplication\MainApplication.csproj", "{8C46DABE-2042-4621-AB1A-63EA8913BFC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreMvc", "AspNetCoreMvc\AspNetCoreMvc.csproj", "{98F2742D-6EF1-42EF-AE12-26020CA3B7F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreMvc", "AspNetCoreMvc\AspNetCoreMvc.csproj", "{98F2742D-6EF1-42EF-AE12-26020CA3B7F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreMvcViews", "AspNetCoreMvcViews\AspNetCoreMvcViews.csproj", "{3B74739D-85B6-453F-B21C-297E6A9AB769}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{98F2742D-6EF1-42EF-AE12-26020CA3B7F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98F2742D-6EF1-42EF-AE12-26020CA3B7F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98F2742D-6EF1-42EF-AE12-26020CA3B7F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B74739D-85B6-453F-B21C-297E6A9AB769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B74739D-85B6-453F-B21C-297E6A9AB769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B74739D-85B6-453F-B21C-297E6A9AB769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B74739D-85B6-453F-B21C-297E6A9AB769}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
