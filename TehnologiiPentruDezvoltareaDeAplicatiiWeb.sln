@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainApplication", "MainAppl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreMvc", "AspNetCoreMvc\AspNetCoreMvc.csproj", "{98F2742D-6EF1-42EF-AE12-26020CA3B7F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreMvcViews", "AspNetCoreMvcViews\AspNetCoreMvcViews.csproj", "{3B74739D-85B6-453F-B21C-297E6A9AB769}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreMvcViews", "AspNetCoreMvcViews\AspNetCoreMvcViews.csproj", "{3B74739D-85B6-453F-B21C-297E6A9AB769}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreMvcRouting", "AspNetCoreMvcRouting\AspNetCoreMvcRouting.csproj", "{54AD8487-E62F-43E9-AFA4-65563A620BF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreMvcRouting", "AspNetCoreMvcRouting\AspNetCoreMvcRouting.csproj", "{54AD8487-E62F-43E9-AFA4-65563A620BF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{5F47B386-CDBA-493D-B02F-DF834BBDC992}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{54AD8487-E62F-43E9-AFA4-65563A620BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54AD8487-E62F-43E9-AFA4-65563A620BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54AD8487-E62F-43E9-AFA4-65563A620BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F47B386-CDBA-493D-B02F-DF834BBDC992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F47B386-CDBA-493D-B02F-DF834BBDC992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F47B386-CDBA-493D-B02F-DF834BBDC992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F47B386-CDBA-493D-B02F-DF834BBDC992}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
