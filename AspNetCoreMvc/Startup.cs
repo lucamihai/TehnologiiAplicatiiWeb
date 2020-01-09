@@ -19,9 +19,12 @@ namespace AspNetCoreMvc
 
         public void ConfigureServices(IServiceCollection services)
         {
+            //services.AddDbContext<ApplicationDbContext>(options =>
+            //    options.UseSqlServer(
+            //        "Server=(localdb)\\MSSQLLocalDB;Database=SportsStoreMVC;Trusted_Connection=True;MultipleActiveResultSets=true"));
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
-                    "Server=(localdb)\\MSSQLLocalDB;Database=SportsStoreMVC;Trusted_Connection=True;MultipleActiveResultSets=true"));
+                    "Data Source=(localdb)\\MSSQLLocalDB; Initial Catalog=SportsStore;Integrated Security=True"));
             services.AddTransient<IProductRepository, EFProductRepository>();
             services.AddTransient<ICatalogRepository, EFCatalogRepository>();
             services.AddMvc(options => options.EnableEndpointRouting = false);

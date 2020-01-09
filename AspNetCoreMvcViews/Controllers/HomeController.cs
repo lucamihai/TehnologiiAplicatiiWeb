@@ -6,8 +6,12 @@ namespace AspNetCoreMvcViews.Controllers
 {
     public class HomeController : Controller
     {
-        private IRepository repository; 
-        public HomeController(IRepository repo) { repository = repo; }
+        private readonly IRepository repository;
+
+        public HomeController(IRepository repo)
+        {
+            repository = repo;
+        }
 
         public IActionResult Index([FromQuery] int? id)
         {
@@ -23,7 +27,7 @@ namespace AspNetCoreMvcViews.Controllers
         }
         public ViewResult Create() => View(new Person());
 
-        [HttpPost] 
+        [HttpPost]
         public ViewResult Create(Person model) => View("Index", model);
         public ViewResult Names(IList<string> names) => View(names ?? new List<string>());
     }

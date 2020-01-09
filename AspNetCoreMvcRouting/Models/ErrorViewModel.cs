@@ -1,5 +1,3 @@
-using System;
-
 namespace AspNetCoreMvcRouting.Models
 {
     public class ErrorViewModel
