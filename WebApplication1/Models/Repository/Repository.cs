@@ -6,7 +6,7 @@ namespace WebApplication1.Models.Repository
 {
     public class Repository
     {
-        private readonly EFDbContext context = new EFDbContext(); 
+        private readonly EFDbContext context = new EFDbContext();
 
         public IEnumerable<Product> Products => context.Products.ToList();
         public IEnumerable<Catalog> Catalogs => context.Catalogs.ToList();

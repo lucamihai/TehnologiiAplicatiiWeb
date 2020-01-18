@@ -1,10 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing.Constraints;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -27,9 +22,9 @@ namespace AspNetCoreMvcRouting
             app.UseSession();
             app.UseMvc(routes => {
                 routes.MapRoute(
-                    name: "MyRoute", 
-                    template: "{controller}/{action}/{id?}", 
-                    defaults: new { controller = "Home", action = "Index" }, 
+                    name: "MyRoute",
+                    template: "{controller}/{action}/{id?}",
+                    defaults: new { controller = "Home", action = "Index" },
                     constraints: new { id = new IntRouteConstraint() });
             });
         }

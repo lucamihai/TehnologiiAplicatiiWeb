@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using AspNetCoreMvcRouting.Models;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace AspNetCoreMvcRouting.Controllers
 {
@@ -20,7 +12,7 @@ namespace AspNetCoreMvcRouting.Controllers
         //    {
         //        Controller = nameof(HomeController),
         //        Action = nameof(CustomVariable),
-        //    }; 
+        //    };
 
         //    r.Data["Id"] = id ?? "<no value>";
         //    r.Data["Url"] = Url.Action("CustomVariable", "Home", new { id = 100 });
