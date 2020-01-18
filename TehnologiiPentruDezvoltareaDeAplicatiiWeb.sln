@@ -17,6 +17,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreMvcRouting", "Asp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{5F47B386-CDBA-493D-B02F-DF834BBDC992}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PDFs", "PDFs", "{A7ECD001-CEE9-4C42-A3D1-2B9D8E6ADF89}"
+	ProjectSection(SolutionItems) = preProject
+		PDFs\TDA_L03_LINQ.pdf = PDFs\TDA_L03_LINQ.pdf
+		PDFs\TDA_L04_ASP_Structura unei aplicatii.pdf = PDFs\TDA_L04_ASP_Structura unei aplicatii.pdf
+		PDFs\TDA_L05_ASP.pdf = PDFs\TDA_L05_ASP.pdf
+		PDFs\TDA_L06_Structura aplicatiei_ASP.NET Core MVC.pdf = PDFs\TDA_L06_Structura aplicatiei_ASP.NET Core MVC.pdf
+		PDFs\TDA_L07_ASP.NET Core MVC_Rutare_ Controllere si Actiuni.pdf = PDFs\TDA_L07_ASP.NET Core MVC_Rutare_ Controllere si Actiuni.pdf
+		PDFs\TDA_L08_ASP.NET Core MVC_Views_Model.pdf = PDFs\TDA_L08_ASP.NET Core MVC_Views_Model.pdf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
